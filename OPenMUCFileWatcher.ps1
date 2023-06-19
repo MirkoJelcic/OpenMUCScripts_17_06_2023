@@ -47,7 +47,7 @@ Write-Host "Start at $now, waiting to sychronize OneDrive"
 
  Write-Host "Offline Start File " $($offLineStartFile)
 #wait for three minutes
-Start-Sleep -Seconds 180
+Start-Sleep -Seconds 0
 
 
 try {
